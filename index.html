@@ -15,31 +15,35 @@
     />
     
     <script type="module" crossorigin src="/chocolate-markup-team1/assets/index-4b9725d3.js"></script>
-    <link rel="stylesheet" href="/chocolate-markup-team1/assets/index-9410eac9.css">
+    <link rel="stylesheet" href="/chocolate-markup-team1/assets/index-22c9db4b.css">
   </head>
   <body>
-    <main>
+    <main id="main">
       <header class="main-header">
   <div class="page-header-container container">
     <nav class="header-nav">
-      <a href="#" class="logo-header"
+      <a href="#main" class="logo-header"
         ><span class="logo-header-first">SIMPLY</span>&nbsp;CHOCOLATE</a
       >
       <ul class="menu-header">
         <li class="menu-header-item">
-          <a class="menu-header-link current" href="#">Home</a>
+          <a class="menu-header-link" href="#main">Home</a>
         </li>
         <li class="menu-header-item">
-          <a class="menu-header-link" href="#">How it&#39;s made?</a>
+          <a class="menu-header-link" href="#how-its-made"
+            >How it&#39;s made?</a
+          >
         </li>
         <li class="menu-header-item">
-          <a class="menu-header-link" href="#">Our products</a>
+          <a class="menu-header-link" href="#our-products">Our products</a>
         </li>
         <li class="menu-header-item">
-          <a class="menu-header-link" href="#">Top sellers</a>
+          <a class="menu-header-link" href="#top-sellers">Top sellers</a>
         </li>
         <li class="menu-header-item">
-          <a class="menu-header-link" href="#">Chocolate is loved</a>
+          <a class="menu-header-link" href="#chocolate-is-loved"
+            >Chocolate is loved</a
+          >
         </li>
       </ul>
     </nav>
@@ -89,21 +93,19 @@
           of pure delight!
         </p>
         <div class="hero-buttons-container">
-          <ul class="hero-buttons-list">
-            <li class="hero-buttons-item">
-              <button class="hero-button-buy" type="button">Buy now</button>
-            </li>
-            <li class="hero-buttons-item">
-              <button class="hero-button-made" type="button">
-                How it&#39;s made
-              </button>
-            </li>
-          </ul>
-          <button class="hero-button-scroll" type="button">
+          <div class="hero-buttons-list">
+            <button class="hero-button-buy" type="button" data-modal-open>
+              Buy now
+            </button>
+            <a class="hero-button-made" href="#how-its-made">
+              How it&#39;s made
+            </a>
+          </div>
+          <a class="hero-button-scroll" href="#footer">
             scroll down<svg class="hero-scroll-icon" width="16" height="16">
               <use href="/chocolate-markup-team1/assets/icons-5e4a485a.svg#icon-scroll-down"></use>
             </svg>
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -978,19 +980,23 @@
     <div class="mobile-menu-top">
       <ul class="mobile-menu-list">
         <li class="mobile-menu-item">
-          <a class="mobile-menu-link current" href="#">Home</a>
+          <a class="mobile-menu-link" href="#main">Home</a>
         </li>
         <li class="mobile-menu-item">
-          <a class="mobile-menu-link" href="#">How it&#39;s made?</a>
+          <a class="mobile-menu-link" href="#how-its-made"
+            >How it&#39;s made?</a
+          >
         </li>
         <li class="mobile-menu-item">
-          <a class="mobile-menu-link" href="#">Our products</a>
+          <a class="mobile-menu-link" href="#our-products">Our products</a>
         </li>
         <li class="mobile-menu-item">
-          <a class="mobile-menu-link" href="#">Top sellers</a>
+          <a class="mobile-menu-link" href="#top-sellers">Top sellers</a>
         </li>
         <li class="mobile-menu-item">
-          <a class="mobile-menu-link" href="#">Chocolate is loved</a>
+          <a class="mobile-menu-link" href="#chocolate-is-loved"
+            >Chocolate is loved</a
+          >
         </li>
       </ul>
     </div>
